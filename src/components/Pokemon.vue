@@ -21,6 +21,7 @@ export default {
       state,
       setPoke() {
         pokeService.setPoke(props.poke.name)
+        // pokeService.pokeDetails(props.poke.name)
       }
 
     }
